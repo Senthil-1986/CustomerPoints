@@ -1,0 +1,26 @@
+URL with different purpose
+
+1.http://localhost:9009/point/add (method = POST)
+
+parameters : name, mobile and address
+
+purpose	: To add new customer
+
+
+2.http://localhost:9009/point/invoice (method = POST)
+
+parameters : customerID, valueDate, amount
+
+purpose	: to add transaction details
+
+3.http://localhost:9009/point/process/3 (method = GET)
+
+purpose	: to see the point of individual customer
+
+Note 	: customer id need to pass with URL (here 3 is customer ID)
+
+4.http://localhost:9009/point/process/list (method = GET)
+
+purpose	: to see the all customer details
+
+
