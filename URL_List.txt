@@ -13,6 +13,8 @@ parameters : customerID, valueDate, amount
 
 purpose	: to add transaction details
 
+valueDate format would be 'dd/MM/yyyy HH:mm:ss' (eg : '30/04/2021 23:59:59') 
+
 3.http://localhost:9009/point/process/3 (method = GET)
 
 purpose	: to see the point of individual customer
